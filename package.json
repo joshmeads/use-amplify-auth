@@ -1,0 +1,29 @@
+{
+  "name": "@joshmeads/use-amplify-auth",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "module": "dist/useAmplifyAuth.esm.js",
+  "repository": "git@github.com:joshmeads/use-amplify-auth.git",
+  "author": {
+    "name": "Joshua Meads",
+    "email": "apps+github@joshmeads.com"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "release": "np"
+  },
+  "np": {
+    "yarn": true
+  },
+  "devDependencies": {
+    "@types/react": "16.9.23",
+    "np": "^6.2.0",
+    "rollup": "^1.32.0",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+  "dependencies": {
+    "aws-amplify": "2.2.6",
+    "react": "16.13.0"
+  }
+}
